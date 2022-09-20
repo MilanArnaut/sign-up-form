@@ -19,7 +19,57 @@
     </div>
 
     <div class="right-side">
-        
+        <div class="header">
+            <p>This is not a real online service! 
+                You know you need something like this in your life to help you realize your deepest dreams. 
+                Sign up <em>now</em> to get started.</p>
+            <p>You <em> know</em> you want to.</p>
+        </div>
+        <div class="input-section">
+            <form id="inputForm">
+                <legend>Let's do this!</legend>
+
+                <fieldset>
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name" name="first_name">
+                    <p id="first_name_error"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="last_name">Last name</label>
+                    <input type="text" id="last_name" name="last_name">
+                    <p id="last_name_error"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <p id="email_error"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="phone_number">Phone number</label>
+                    <input type="text" id="phone_number" name="phone_number">
+                    <p id="phone_number_error"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <p id="password_error"></p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="confirm_password">Confirm password</label>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                    <p id="confirm_password_error"></p>
+                </fieldset>
+            </form>
+        </div>
+        <div class="submit-section">
+            <button id="submitButton" type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
     </div>
 
     <script src="script.js"></script>
