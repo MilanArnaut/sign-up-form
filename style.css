@@ -109,10 +109,15 @@ form input {
     border-radius: 4px;
 }
 
-form input:focus{
+form input:focus:valid{
     border: 3px solid blue;
     outline: none;
     box-shadow: 0 6px 2px 0 rgba(0,0,0,0.6);
+}
+
+form input:invalid:focus {
+    border: 3px solid red;
+    outline: none;
 }
 
 .right-side .input-section form p {
