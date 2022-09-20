@@ -11,13 +11,13 @@
 body {
     display: flex;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .left-side {
     background-image: url('assets/background-img.jpg');
     background-size: cover;
-    width: 40vw;
-    height: 100vh;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,9 +70,54 @@ body {
 .right-side .input-section {
     background-color: white;
     width: 100%;
-    padding: 10px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.right-side .input-section p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+form input {
+    width: 260px;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+form input:focus{
+    border: 3px solid blue;
+    outline: none;
+    box-shadow: 0 6px 2px 0 rgba(0,0,0,0.6);
+}
+
+.right-side .input-section form p {
+    color: red;
+    font-size: 11px;
 }
 
 .right-side .submit-section {
-
+    
 }
