@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --logo-font: FibelNordRegular;
+}
+
+body {
+    display: flex;
+}
+
+.left-side {
+    background-image: url('assets/background-img.jpg');
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.left-side .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-side .container p {
+    font-family: var(--logo-font);
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.left-side p.bottom{
+    position: absolute;
+    bottom: 15px;
+}
+.left-side p a {
+    color: white;
+}
