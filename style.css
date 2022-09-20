@@ -10,6 +10,7 @@
 
 body {
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left-side {
@@ -44,6 +45,34 @@ body {
     position: absolute;
     bottom: 15px;
 }
+
 .left-side p a {
     color: white;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.right-side .header {
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%;
+    margin: 120px 0 0 40px;
+}
+
+.right-side .header p {
+    margin-bottom: 30px;
+}
+
+.right-side .input-section {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.right-side .submit-section {
+
 }
