@@ -26,36 +26,35 @@
             <p>You <em> know</em> you want to.</p>
         </div>
         <div class="input-section">
+            <p>Let's do this!</p>
             <form id="inputForm">
-                <legend>Let's do this!</legend>
-
                 <fieldset>
                     <label for="first_name">First name</label>
-                    <input type="text" id="first_name" name="first_name">
+                    <input type="text" id="first_name" name="first_name" required>
                     <p id="first_name_error"></p>
                 </fieldset>
 
                 <fieldset>
                     <label for="last_name">Last name</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <input type="text" id="last_name" name="last_name" required>
                     <p id="last_name_error"></p>
                 </fieldset>
 
                 <fieldset>
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <p id="email_error"></p>
                 </fieldset>
 
                 <fieldset>
                     <label for="phone_number">Phone number</label>
-                    <input type="text" id="phone_number" name="phone_number">
+                    <input type="text" id="phone_number" name="phone_number" pattern="[0-9]{10}" required>
                     <p id="phone_number_error"></p>
                 </fieldset>
 
                 <fieldset>
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required> 
                     <p id="password_error"></p>
                 </fieldset>
 
